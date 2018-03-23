@@ -3,7 +3,7 @@
     "description": "Simple Laravel Facebook Graph Scraper",
     "type": "library",
     "require": {
-        "php": "7.1",
+        "php": ">7.1",
         "guzzlehttp/guzzle": "~6"
     },
     "require-dev": {
