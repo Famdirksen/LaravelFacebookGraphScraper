@@ -30,7 +30,6 @@ class FacebookGraphScraperServiceProvider extends ServiceProvider
             FacebookGraphScrape::class,
         ]);
 
-
         $this->app->make('Famdirksen\LaravelFacebookGraphScraper\FacebookGraphScraperController');
     }
 }

@@ -44,7 +44,7 @@ class FacebookGraphScrape extends Command
         $fgsc = new FacebookGraphScraperController();
         $return = $fgsc->scrape($object, $access_token);
 
-        if(!$return['status']) {
+        if (!$return['status']) {
             $this->info($return['response']);
         } else {
             $this->info('Succesfully scraped '.$object);
